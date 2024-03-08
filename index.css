@@ -1,0 +1,39 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkgreen;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h1 {
+  color: darkgoldenrod;
+}
+
+p {
+  color:white;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    margin: 100px;
+}
+
+
+button {
+  background-color: white;
+  font-size: 2rem;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+button:active {
+  scale: 0.9;
+}
